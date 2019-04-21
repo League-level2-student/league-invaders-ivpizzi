@@ -17,11 +17,11 @@ public class GameObject
 	
 	void update()
 	{
-		
+		x++;
 	}
 	
 	void draw(Graphics g)
 	{
-		g.fillRect(10, 10, 100, 100);
+		g.fillRect(x, y, 100, 100);
 	}
 }
