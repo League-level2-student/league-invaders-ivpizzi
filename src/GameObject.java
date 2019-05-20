@@ -6,6 +6,8 @@ public class GameObject
      int y;
      int width;
      int height;
+     
+     boolean isAlive;
 	
 	public GameObject(int newX, int newY, int newWidth, int newHeight)
 	{
@@ -13,6 +15,8 @@ public class GameObject
 		y = newY;
 		width = newWidth;
 		height = newHeight;
+		
+		isAlive = true;
 	}
 	
 	void update()
