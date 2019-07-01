@@ -1,8 +1,10 @@
 import java.awt.Graphics;
+import java.util.ArrayList;
 
 public class ObjectManager
 {
 	Rocketship rocket;
+	ArrayList<Projectile> lasers = new ArrayList();
 	
 	public ObjectManager(Rocketship r)
 	{
